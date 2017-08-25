@@ -1,1 +1,217 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>I'm Sahil Pandya</title>
+    <link href="./static/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="./static/js/jquery.min.js"></script>
+    <link href="./static/css/style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./static/css/fonts.css" rel="stylesheet" type="text/css">
+
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="./static/js/move-top.js"></script>
+    <script type="text/javascript" src="./static/js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+            });
+        });
+    </script>
+    <!---- start-smoth-scrolling---->
+</head>
+<body cz-shortcut-listen="true">
+<!-- container -->
+<!-- header -->
+<div id="home" class="header">
+    <div class="container">
+        <!-- top-hedader -->
+        <div class="top-header">
+            <!-- /logo -->
+            <!--top-nav---->
+            <div class="top-nav">
+                <div class="navigation">
+                    <div class="navigation-right text-center">
+                        <nav class="link-effect-3" id="link-effect-3">
+                            <ul class="nav">
+                                <li class="active"><a data-hover="Home"
+                                                      href="index.html">Home</a>
+                                </li>
+                                <li><a class="scroll" data-hover="About"
+                                       href="/#about">About</a>
+                                </li>
+                                <li><a class="scroll" data-hover="Contact"
+                                       href="/#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- script-for-menu -->
+                        <script>
+                            $("span.menu").click(function () {
+                                $("ul.nav1").slideToggle(300, function () {
+                                    // Animation complete.
+                                });
+                            });
+                        </script>
+                        <!-- /script-for-menu -->
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <!-- /top-hedader -->
+            </div>
+            <div class="banner-info">
+                <div class="col-md-7 header-right">
+                    <h1>Hi <img width="30" src="./static/images/smiley.svg"/></h1>
+                    <h6>Software Engineer</h6>
+                    <ul class="address">
+
+                        <li>
+                            <ul class="address-text">
+                                <li><b>NAME</b></li>
+                                <li>I'M Sahil Pandya</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="address-text">
+                                <li><b>D.O.B</b></li>
+                                <li>19-10-1991</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="address-text">
+                                <li><b>PHONE </b></li>
+                                <li>+91 80-586-95344</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="address-text">
+                                <li><b>ADDRESS </b></li>
+                                <li>Rifco santosh apartment, murgeshpalya, Bangalore, India</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="address-text">
+                                <li><b>E-MAIL </b></li>
+                                <li><a href="mailto:sahilpandya091@gmail.com"> sahilpandya091@gmail.com</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="address-text">
+                                <li><b>WEBSITE </b></li>
+                                <li><a href="http://sahil.work/">sahil.work</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-5 header-left">
+                    <img width="380px" height="380px" src="./static/images/sahil.jpg"
+                         alt="">
+                </div>
+                <div class="clearfix"></div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- about -->
+<div id="about" class="about row">
+    <div class="col-md-12 description">
+        <h2>Hi, I'm <span>Sahil Pandya </span><img width="30" src="./static/images/smiley.svg"/></h2>
+        <p>I am software engineer, Currently working at Vymo Solution.</p>
+        <p style="line-height:30px">I am working as software engineer with 4 years of experience in Front-end and Back-end
+web development. <br/>Having experience in React, React Native, AngularJS, NodeJS, Javascript, PHP.
+<br/>Aiming to use my proven skills in solving real world computer science problem.<br/> Posses a
+B.tech in Computer Science from RTU Rajasthan.</p>
+    </div>
+    <!-- Download resume section -->
+    <div class="col-md-12 download-resume text-center">
+      <h2>
+          My Resume
+      </h2>
+      <p class="description">Want to see my educational and current profession background</p>
+      <div>
+        <a href="./static/Sahil.pdf" target="_blank" class="download-resume-btn">Download Resume</a>
+      </div>
+    </div>
+    <!-- Download resume section end here -->
+</div>
+<!-- /about -->
+<!-- /header -->
+
+<div class="footer" id="contact">
+    <div class="container">
+        <div class="service-head one text-center">
+            <h4>CONTACT ME</h4>
+            <h3>GET <span>IN TOUCH WITH ME</span></h3>
+            <span class="border two"></span>
+        </div>
+        <div class="mail_us row">
+            <div class="col-md-12">
+                <div class="contact-grid1-left">
+                    <div class="contact-grid1-left1">
+                        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                        <h4>Contact By Email</h4>
+                        <ul>
+                            <li><a href="mailto:sahilpandya091@gmail.com">sahilpandya091@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-grid1-left">
+                    <div class="contact-grid1-left1">
+                        <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                        <h4>Contact By Phone</h4>
+                        <ul>
+                            <li>+91 80 586 95344</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-grid1-left">
+                    <div class="contact-grid1-left1">
+                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                        <h4>Looking For Address</h4>
+                        <ul>
+                            <li>Rifcon Santosh Apartment, Murgeshpalya</li>
+                            <li>Bangalore Karnataka</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="copy_right text-center">
+          <ul class="list-inline social-media">
+              <li class="list-inline-item">
+                  <a target="_blank" href="https://twitter.com/sahilpandya091">
+                      <img width="40" height="40" src="./static/images/social-media/tw.png" class="tw"/>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                  <a target="_blank" href="https://www.facebook.com/sahil.pandya.37">
+                      <img width="40" height="40" src="./static/images/social-media/fb.png" class="fb"/>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                  <a target="_blank" href="https://www.linkedin.com/in/sahil-pandya-22813b54/">
+                      <img width="40" height="40" src="./static/images/social-media/in.png" class="ln"/>
+                  </a>
+              </li>
+          </ul>
+        </div>
+    </div>
+</div>
+<!-- //footer -->
+<!--start-smooth-scrolling-->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $().UItoTop({easingType: 'easeOutQuart'});
+    });
+</script>
+<!--end-smooth-scrolling-->
+<script src="./static/js/bootstrap.js"></script>
+
+
+</body>
+</html>
