@@ -1392,7 +1392,7 @@ section {
   min-height: 400px;
   height: auto;
   background-color:rgba(221,110,139, 0.2);
-  border-radius: 30px;
+  /*border-radius: 30px;*/
 }
 
 .service-icon img {
